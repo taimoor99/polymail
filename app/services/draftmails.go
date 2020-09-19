@@ -16,6 +16,7 @@ import (
 
 func GetSession(ctx context.Context) (*mongo.Client, error) {
 	// Connect to our local mongo
+	fmt.Println(os.Getenv("MONGODB_URL"))
 	client, err := mongo.Connect(ctx, options.Client().ApplyURI(os.Getenv("MONGODB_URL")))
 	return client, err
 }
