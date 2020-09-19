@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net/http"
+	"os"
 	"polymail/app/controller"
 	"polymail/app/routes"
 	"polymail/app/services"
@@ -24,5 +25,5 @@ func main() {
 	r := routes.NewRouter(ctrl)
 
 	fmt.Println("server started on PORT 8070")
-	http.ListenAndServe(":8070", r)
+	http.ListenAndServe(":" + os.Getenv("PORT"), r)
 }
