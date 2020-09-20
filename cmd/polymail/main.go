@@ -24,6 +24,6 @@ func main() {
 	ctrl := controller.DraftMailRepository(userDB)
 	r := routes.NewRouter(ctrl)
 
-	fmt.Println("server started on PORT 8070")
+	fmt.Println("server started on PORT "+os.Getenv("PORT"))
 	http.ListenAndServe(":" + os.Getenv("PORT"), r)
 }

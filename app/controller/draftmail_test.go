@@ -227,12 +227,13 @@ func TestDeleteDraftMailHandler(t *testing.T) {
 }
 
 func TestSendDraftMailHandler(t *testing.T) {
+
+	TestCreateDraftMailHandler(t)
+
 	r, err := Init()
 	if err != nil {
 		t.Fatal(err)
 	}
-
-	TestCreateDraftMailHandler(t)
 
 	ts := httptest.NewServer(r)
 	defer ts.Close()
