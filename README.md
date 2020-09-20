@@ -10,6 +10,8 @@ To perform send email sendgrid email service used. And currently sender_email fo
 
 App contain 5 routes of draft emails management. 
 
+{draftmailid} is mongodb document _id.
+
 ### /createmaildraft (POST)
 body 
 
