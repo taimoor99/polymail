@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7ba7fb-3480-435f-bded-2ac04cb2e900" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controller/draftmail_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/draftmail_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/draftmails.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/draftmails.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/polymail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/polymail/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/mailer.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/mailer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/mailer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="319">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -133,7 +131,6 @@
         <option value="$PROJECT_DIR$/app/repository/draftmail.go" />
         <option value="$PROJECT_DIR$/app/services/draftmail.go" />
         <option value="$PROJECT_DIR$/app/services/sentmails.go" />
-        <option value="$PROJECT_DIR$/app/services/mailer.go" />
         <option value="$PROJECT_DIR$/app/model/validator_types.go" />
         <option value="$PROJECT_DIR$/app/controller/draftmail.go" />
         <option value="$PROJECT_DIR$/app/routes/routes.go" />
@@ -144,6 +141,7 @@
         <option value="$PROJECT_DIR$/cmd/polymail/main.go" />
         <option value="$PROJECT_DIR$/app/services/draftmails.go" />
         <option value="$PROJECT_DIR$/app/controller/draftmail_test.go" />
+        <option value="$PROJECT_DIR$/app/services/mailer.go" />
       </list>
     </option>
   </component>
@@ -286,9 +284,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,7 +298,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38668555" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38668555" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -494,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/mailer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="319">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
