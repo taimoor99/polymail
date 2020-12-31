@@ -20,7 +20,7 @@ func NewRouter(ctrl repository.DraftMail) *chi.Mux {
 	r.Use(cors.Handler)
 
 	r.Group(func(r chi.Router) {
-		r.Post("/addmaildraft", ctrl.CreateDraftMailHandler)
+		r.Post("/createmaildraft", ctrl.CreateDraftMailHandler)
 		r.Get("/getmaildraft/{id}", ctrl.GetDraftMailHandler)
 		r.Delete("/deletemaildraft/{id}", ctrl.DeleteDraftMailHandler)
 		r.Put("/updatemaildraft/{id}", ctrl.UpdateDraftMailHandler)

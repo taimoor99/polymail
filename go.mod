@@ -9,5 +9,6 @@ require (
 	github.com/go-chi/cors v1.1.1
 	github.com/sendgrid/rest v2.6.1+incompatible // indirect
 	github.com/sendgrid/sendgrid-go v3.6.3+incompatible
+	github.com/stretchr/testify v1.6.1
 	go.mongodb.org/mongo-driver v1.4.1
 )
