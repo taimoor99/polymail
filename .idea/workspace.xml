@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/../waw-api/user_service/utils/trim_mail.go" description="func TrimEmailAddress(email string) string {&#10;&#9;s :=..." line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7ba7fb-3480-435f-bded-2ac04cb2e900" name="Default Changelist" comment="">
+    <list default="true" id="0f7ba7fb-3480-435f-bded-2ac04cb2e900" name="Default Changelist" comment="change readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -254,17 +254,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="change readme" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/app/services/draftmails.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/cmd/polymail/main.go</url>
           <line>24</line>

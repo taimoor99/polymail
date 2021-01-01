@@ -1,6 +1,8 @@
 
 # Polymail  
 
+A simple CRUD app for sending draft mails.
+
 All the required configuration is in config.env for setting os envoirment veriables. (source ./config.env) will set all required config.
 
 To run handlers test change directory to polymail/app/controler then run go test -v.
